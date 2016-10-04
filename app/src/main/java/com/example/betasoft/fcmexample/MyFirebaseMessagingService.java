@@ -20,6 +20,11 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private static final String TAG = "MyFirebaseMsgService";
 
+
+    int a=100;
+
+
+
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         //Displaying data in log
